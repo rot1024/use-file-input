@@ -10,7 +10,7 @@ yarn add use-file-input
 
 ## Usage
 
-```js
+```jsx
 const Component = () => {
   const handleFileSelect = useFileInput(
     (files) => {
