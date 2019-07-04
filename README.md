@@ -14,6 +14,7 @@ yarn add use-file-input
 const Component = () => {
   const handleFileSelect = useFileInput(
     (files) => {
+      // files is FileList
       // do something with selected files
     },
     { accept: "image/*", multiple: true }
